@@ -145,6 +145,7 @@ textarea {
 .salvar button {
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 120px;
     border: solid 2px black;
     box-shadow: 3px 3px 0 black;
     font-weight: bold;

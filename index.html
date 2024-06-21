@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas domésticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Household Chores List</h1>
+        <h2>Lista de tarefas domésticas</h2>
+    </header><!--header-->
+    <main>
+    <form class="botoes">
+        <input type="text" id="input-lista" required placeholder="Ex: Limpar geladeira">
+        <button type="submit" id="botao-adicionar">Adicionar +</button>
+        <button type="reset" id="botao-limpar">Limpar</button>
+    </form><!--form-->
+    <h3>Task Checklist</h3>
+    <hr class="task">
+    <ul id="lista-tarefas">
+        <li">
+
+        </li>
+    </ul>
+    </main>
+    <div class="rodape">
+        <h3>Ao finalizar a tarefa, clique em cima dela para concluir!</h3>
+        <span><hr></span>
+        <form>
+            <textarea name="notes" class="notes" placeholder="Digite sua anotação..."></textarea>
+        </form>
+        <div class="salvar">
+            <button type="submit" id="botao-salvar">Salvar</button>
+            <button type="reset" id="botao-cancelar">Cancelar</button>
+        </div>
+    </div><!--rodape-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
